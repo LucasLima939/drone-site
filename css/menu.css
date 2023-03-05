@@ -1,23 +1,48 @@
 #homeBanner {
-    height: 500px;
+    height: 334px;
     background-image: url(../img/banner.fw.png);
-    background-size: cover;
+    background-size: 980px 334px;
 }
 
 .navBar {
-    background-color: aqua;
+    background-color: #92c9ce;
+    text-align: right;
+    display: inline-table;
+    width: 100%;
+    padding-top: 15px;
 }
 
 .bottomNavBar {
-    background-color: red;
+    background-color: #660000;
+    text-align: left;
+    display: inline-table;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;;
+}
+
+#logo {
+    width: 194px;
+    height: 145px;
+    background-image: url(../img/logo.fw.png);
+    border: #92c9ce;
+    border-width: thin;
+    position: absolute;
 }
 
 ul#menuButtons li {
-    display:inline;
-  }
+    display: inline-table;
+    padding-right: 15px;
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+}
 
 .menu {
-    width: 80%;
-    height: 1500px;    
-    margin: auto; 
+    width: 100%;
+    height: 1500px;
+    margin: auto;
 }
