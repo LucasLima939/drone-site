@@ -10,6 +10,7 @@
     display: inline-table;
     width: 100%;
     padding-top: 15px;
+    margin-top: 25px;
 }
 
 .bottomNavBar {
@@ -18,7 +19,6 @@
     display: inline-table;
     width: 100%;
     padding-top: 15px;
-    padding-left: 15px;;
 }
 
 #logo {
@@ -28,6 +28,7 @@
     border: #92c9ce;
     border-width: thin;
     position: absolute;
+    margin-left: 25px;
 }
 
 ul#menuButtons li {
