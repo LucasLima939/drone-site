@@ -1,0 +1,123 @@
+#title1 {
+    color: #660000;
+    border-bottom: 5px solid #660000;
+    font-size: 18px;
+    font-weight: bold;
+    height: 25px;
+    margin-top: 25px;
+}
+
+#img1 {
+    background-image: url(../img/imgDroneA.png);
+    height: 77px;
+    width: 125px;
+    right: 0px;
+    position: fixed;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: -25px;
+}
+
+#spacer {
+    width: 100%;
+    height: 20px;
+    background-color: #444444;
+    margin-top: 15px;
+}
+
+.itemCard {
+    border: 2px solid #92c9ce;
+    width: 300px;
+    height: 376px;
+}
+
+#subtitle1 {
+    color: white;
+    font-size: 10px;
+    font-family: Tahoma;
+    margin-top: -10px;
+}
+
+.itemTitle {
+    font-family: Tahoma;
+    font-size: 14px;
+    text-align: center;
+    padding: 1px;
+    vertical-align: middle;
+}
+
+.titleBackgroundBlue {
+    color: #1b8e99;
+    background-color: #92c9ce;
+}
+
+.titleBackgroundRed {
+    color: #660000;
+    background-color: #f4c0c0;
+}
+
+
+#cartImg {
+    background-color: white;
+    height: 40px;
+    padding: 4px;
+    border-radius: 05%;
+}
+
+.itemBottom {
+    color: white;
+    font-family: Tahoma;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px;
+    align-items: center;
+    height: 85px;
+}
+
+.itemBottomBlue {
+    background-color: #1b8e99;
+}
+
+.itemBottomRed {
+    background-color: #660000;
+}
+
+.blue {
+    color: #1b8e99;
+}
+
+.red {
+    color: #660000;
+}
+
+.itemDescription {
+    font-family: Tahoma;
+    font-size: 13px;
+    padding-inline: 15px;
+}
+
+#storeSection {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.imgCard {
+    width: 100%;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imgCard1 {
+    background-image: url(../img/DroneA.png);
+}
+
+.imgCard2 {
+    background-image: url(../img/DroneB.png);
+}
+
+.imgCard3 {
+    background-image: url(../img/DroneC.png);
+}
