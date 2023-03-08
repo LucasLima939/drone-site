@@ -1,0 +1,52 @@
+#footer-section {
+    width: 100%;
+    margin-top: 54px;
+}
+
+#profImg {
+    background-image: url(../img/imgProfessor.png);
+    height: 200px;
+    width: 100px;
+    position: fixed;
+    right: 20px;
+    top: 0px;
+}
+
+#droneImgRow {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#droneImg {
+    background-image: url(../img/imgDroneC.png);
+    height: 50px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.footer-content {
+    background-color: #1b8e99;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+#logo {
+    background: url(../img/logo.png) no-repeat center;
+    height: 50px;
+    width: 200px;
+}
+
+.footer-bottom {
+    background-color: #660000;
+    width: 100%;
+    text-align: end;
+    margin-top: -15px;
+}
+
+.footer-font {
+    color: white;
+    font-family: Tahoma;
+    font-size: 14px;
+}
