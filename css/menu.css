@@ -13,14 +13,6 @@
     margin-top: 25px;
 }
 
-.bottomNavBar {
-    background-color: #660000;
-    text-align: left;
-    display: inline-table;
-    width: 100%;
-    padding-top: 15px;
-}
-
 #logo {
     width: 194px;
     height: 145px;
@@ -31,15 +23,49 @@
     margin-left: 25px;
 }
 
-ul#menuButtons li {
-    display: inline-table;
-    padding-right: 15px;
-    width: 40px;
-    text-align: center;
+ul.menuTop {
     vertical-align: middle;
     font-family: Arial;
     color: white;
     font-size: 12px;
+    padding: 0px 15px 0px;
+    margin: 0px;
+}
+
+ul.menuTop li:hover {
+    background-color: white;
+    color: #92c9ce ;
+
+}
+
+.bottomNavBar {
+    background-color: #660000;
+    text-align: left;
+    display: inline-table;
+    width: 100%;
+}
+
+.menuBottom {
+    vertical-align: middle;
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+    padding: 0px 15px 0px;
+    margin: 0px;
+}
+
+li {
+    display: inline-table;
+    padding: 15px 15px 15px;
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul.menuBottom li:hover {
+    background-color: white;
+    color: #660000 ;
+
 }
 
 .menu {
